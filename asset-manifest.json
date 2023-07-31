@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Krishimanthan/static/css/main.73da3530.css",
+    "main.js": "/Krishimanthan/static/js/main.e2941572.js",
+    "static/js/787.9b5126c8.chunk.js": "/Krishimanthan/static/js/787.9b5126c8.chunk.js",
+    "static/media/news-3.jpg": "/Krishimanthan/static/media/news-3.df8d732a7e519e31ed59.jpg",
+    "static/media/news-5.jpg": "/Krishimanthan/static/media/news-5.f7af1e3f147e9f60469c.jpg",
+    "static/media/news-2.jpg": "/Krishimanthan/static/media/news-2.ee518c388862f044da01.jpg",
+    "static/media/news-4.jpg": "/Krishimanthan/static/media/news-4.553cd17e9165b3bb67c1.jpg",
+    "static/media/farming7.png": "/Krishimanthan/static/media/farming7.0ac846420be8c88c5d15.png",
+    "static/media/farming6.png": "/Krishimanthan/static/media/farming6.ad5a8d7324d968d2b2ee.png",
+    "static/media/news-1.jpg": "/Krishimanthan/static/media/news-1.a3f08fa94e22351e880b.jpg",
+    "static/media/farming.png": "/Krishimanthan/static/media/farming.783913302e119b0272c2.png",
+    "static/media/farming2.png": "/Krishimanthan/static/media/farming2.fe37009a28ba2cd38d32.png",
+    "static/media/farming3.png": "/Krishimanthan/static/media/farming3.283702205509ca17bce9.png",
+    "static/media/headerb.png": "/Krishimanthan/static/media/headerb.e4320dfd4d0afa3d0db0.png",
+    "static/media/logo.jpg": "/Krishimanthan/static/media/logo.3e0b0736566585eb7341.jpg",
+    "static/media/farming8.png": "/Krishimanthan/static/media/farming8.b9b0ffe172a17060c6e6.png",
+    "static/media/slick.svg": "/Krishimanthan/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Krishimanthan/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Krishimanthan/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Krishimanthan/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Krishimanthan/index.html",
+    "main.73da3530.css.map": "/Krishimanthan/static/css/main.73da3530.css.map",
+    "main.e2941572.js.map": "/Krishimanthan/static/js/main.e2941572.js.map",
+    "787.9b5126c8.chunk.js.map": "/Krishimanthan/static/js/787.9b5126c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73da3530.css",
+    "static/js/main.e2941572.js"
+  ]
+}
