@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #5cb335;
+  --secondary-color: #81e055;
+  --bg-color: #a1e081;
+  --rare-color: #016e0e;
+  --pane-padding: 5px 42px;
+  --heading-color: #fff;
+  --primaryColor: #016e0e;
+  --off-white: rgb(126, 126, 126);
+  --black: #000;
+}
+/* popular-headline-container */
+.popular-headline-container {
+  padding: 0 8vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  gap: 1vw;
+  margin-top: 35px;
+}
+.heading {
+  background: url(../../Assets/Images/headingbg.png) center;
+  height: 4.5vh;
+}
+.heading p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 8vw;
+  background-color: var(--primaryColor);
+  color: var(--heading-color);
+  font-size: 1.1rem;
+}
+
+/* popularCard */
+.popular {
+  width: 90%;
+}
+.popular .cardContainer {
+  justify-content: start;
+  gap: 2vw;
+}
+.popularCard {
+  margin: 3vh 0;
+  position: relative;
+  width: 48% !important;
+
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.popularCard:hover {
+  cursor: pointer;
+  transform: translateY(-7px);
+}
+.popularCard img {
+  width: 100%;
+  object-fit: cover;
+}
+.popularCard .content {
+  width: 100%;
+  padding: 2.2vh 1.5vw;
+}
+
+.popularCard .category {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primaryColor);
+  padding: 0vw 0 0 0.5vw;
+  text-align: center;
+  color: var(--heading-color);
+}
+
+.popularCard h6 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.8vh 1vw;
+  display: inline-block;
+  background-color: var(--black);
+}
+
+.popularCard h5 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.popularCard p {
+  font-size: 0.9rem;
+
+  margin-top: 2vh;
+  color: var(--off-white);
+}
+.popularCard p span {
+  color: var(--primaryColor);
+}
+@media (min-width: 1100px) and (max-width: 1300px) {
+  .popularCard img {
+    height: 30vh;
+  }
+}
+@media (min-width: 800px) and (max-width: 1099px) {
+  .heading p {
+    width: 12vw;
+  }
+  .popular .cardContainer {
+    justify-content: start;
+    gap: 2vw;
+    flex-direction: column;
+  }
+  .popularCard {
+    width: 80% !important;
+  }
+  .popularCard img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .popularCard .content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 799px) {
+  .heading p {
+    width: 24vw;
+  }
+  .popular-headline-container {
+    padding: 0 8vw;
+    flex-direction: column;
+  }
+  .popular {
+    width: 100%;
+  }
+  .headline-conatiner {
+    width: 100%;
+  }
+
+  .popularCard {
+    width: 100% !important;
+  }
+  .popularCard img {
+    width: 100%;
+  }
+  .popularCard .content {
+    width: 100%;
+    padding: 1.5vh 2vw;
+  }
+}

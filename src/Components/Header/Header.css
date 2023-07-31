@@ -1,0 +1,149 @@
+.head {
+  cursor: pointer;
+}
+
+.head .logo img {
+  width: 300px;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: black;
+}
+
+header li {
+  margin-right: 35px;
+  transition: 0.5s;
+}
+
+header li a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+header li a::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+  font-weight: 700;
+}
+
+header li a:hover:after {
+  width: 100%;
+}
+
+header li a:hover {
+  color: #fff;
+}
+
+/* header li a:hover{
+    color: #fff;
+    cursor: pointer;
+} */
+
+.barIco {
+  font-size: 25px;
+  background: none;
+  color: white;
+  display: none;
+  border: none;
+}
+
+/* Imported from App.css */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+label {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.flexSB {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.flex {
+  display: flex;
+}
+
+nav .flex {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.m-20 {
+  margin: 5px 15px;
+}
+
+.paddingSmall {
+  padding: 20px 0;
+}
+
+li,
+ui {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+  .head .ad {
+    display: none;
+  }
+
+  header .icon {
+    display: none;
+  }
+
+  header .flex {
+    display: none;
+  }
+
+  .barIco {
+    display: block;
+  }
+
+  header .navbar {
+    position: absolute;
+    display: block;
+    background-color: var(--secondary-color);
+    left: 0;
+    top: 210px !important;
+    width: 100%;
+    height: 60vh;
+    z-index: 5;
+    padding: 50px;
+  }
+
+  header ul li {
+    margin-bottom: 30px;
+  }
+}

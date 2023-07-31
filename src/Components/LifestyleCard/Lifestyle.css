@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.lifeStyle {
+  padding: 0 8vw;
+}
+.heading {
+  color: var(--heading-color);
+  background: url(../../Assets/Images/headingbg.png) center;
+  height: 4.5vh;
+}
+.heading p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 8vw;
+  background-color: var(--primaryColor);
+  color: var(--heading-color);
+  font-size: 1.1rem;
+}
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.lifeStyleCard {
+  margin: 3vh 1vw;
+  position: relative;
+  width: min-content !important;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.lifeStyleCard:hover {
+  cursor: pointer;
+  transform: translateY(-7px);
+}
+.lifeStyle img {
+  height: 23.5vh;
+  object-fit: cover;
+}
+.lifeStyle .content {
+  padding: 2.5vh 1.5vw;
+}
+
+.lifeStyle .category {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primaryColor);
+
+  padding: 0vw 0 0 0.5vw;
+  text-align: center;
+  color: var(--heading-color);
+}
+
+.lifeStyle h6 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.8vh 1vw;
+  display: inline-block;
+  background-color: var(--black);
+}
+
+.lifeStyle h5 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.lifeStyle .lifeStyleCard p {
+  font-size: 0.9rem;
+
+  margin-top: 2vh;
+  color: var(--off-white);
+}
+.lifeStyle p span {
+  color: var(--primaryColor);
+}
+
+@media (min-width: 601px) and (max-width: 870px) {
+  .lifeStyleCard {
+    margin: 3vh 0;
+    width: 45% !important;
+  }
+  .lifeStyle img {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .cardContainer {
+    margin:  0;
+    flex-direction: column;
+    gap: 0vh;
+  }
+  .lifeStyleCard {
+    margin: 0.5vh 0;
+    width: 100% !important;
+  }
+  .lifeStyle img {
+    width: 100%;
+  }
+}
